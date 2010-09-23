@@ -1,0 +1,105 @@
+.footertext {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footertext A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.footertext A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.footertext A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.footertext {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footertext A:link {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.footertext A:visited {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.footertext A:hover {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.footertext2 {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footertext2 A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.footertext2 A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.footertext2 A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+.footertext2 {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footertext2 A:link {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.footertext2 A:visited {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.footertext2 A:hover {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #f15b01
+}
+.bodytext {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: verdana,arial,tahoma
+}
+.bodytext2 {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana,arial,tahoma
+}
+.leftnavtext {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.leftnavtext A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.leftnavtext A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.leftnavtext A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.leftnavtext {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.leftnavtext A:link {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.leftnavtext A:visited {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.leftnavtext A:hover {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.indexnavtext {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: verdana,arial,tahoma
+}
+.indexnavtext A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.indexnavtext A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.indexnavtext A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.indexnavtext {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: verdana,arial,tahoma
+}
+.indexnavtext A:link {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: verdana,arial,tahoma; TEXT-DECORATION: none
+}
+.indexnavtext A:visited {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: verdana,arial,tahoma; TEXT-DECORATION: none
+}
+.indexnavtext A:hover {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: verdana,arial,tahoma; TEXT-DECORATION: underline
+}
