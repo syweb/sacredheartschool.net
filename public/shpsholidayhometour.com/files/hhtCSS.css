@@ -108,3 +108,8 @@ background:#FFF5DA;
 border:1px solid #D7C9AF;
 padding:10px; margin:10px 0; text-align:center;}
 .datatable-div form{margin:0px;}
+
+
+.datatable-divx{-moz-border-radius:10px 10px 10px 10px;
+padding:10px; margin:10px 0; text-align:center;}
+.datatable-divx form{margin:0px;}
