@@ -1,3 +1,4 @@
+img{border:none;}
 .footertext {
 	FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
 }
@@ -113,3 +114,5 @@ padding:10px; margin:10px 0; text-align:center;}
 .datatable-divx{-moz-border-radius:10px 10px 10px 10px;
 padding:10px; margin:10px 0; text-align:center;}
 .datatable-divx form{margin:0px;}
+
+
