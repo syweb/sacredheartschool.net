@@ -120,14 +120,14 @@ a:active{color:#007ca7; text-decoration:underline;}
 .news .news-title{padding:5px 15px; font-size:13px; font-style:italic; color:#003d52; background:#f5f5f5; border-top:1px solid #e9e8e8; border-bottom:1px solid #eee;}
 .news .ui-state-active{padding:5px 15px; font-size:13px; font-style:italic; color:#003d52; background:#fdfdfd; border-top:1px solid #e9e8e8; border-bottom:1px solid #eee;}
 .news .news-data{padding:2px 15px;}
-.news .news-data p{padding:0px;}
+.news .news-data p{padding-bottom:8px; line-height:18px;}
 
 
 
 .event{}
-.event .col-date{float:left; width:30px; padding-right:10px; font-style:normal;}
+.event .col-date{float:left; width:50px; padding-right:10px; font-style:normal;}
 .event .col-date span{font-size:20px; color:#820e2d;}
-.event .col-data{ float:left; font-size:11px; border-left:1px solid #c5c5c5; padding-left:10px; width:220px; }
+.event .col-data{ float:left; font-size:11px; border-left:1px solid #c5c5c5; padding-left:10px; width:200px; }
 .event .col-data span{font-size:13px; color:#003d52; padding-bottom:5px;}
 .event .col-data p{padding-bottom:5px; line-height:16px;}
 
