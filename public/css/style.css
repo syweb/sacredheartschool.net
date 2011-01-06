@@ -125,7 +125,7 @@ a:active{color:#007ca7; text-decoration:underline;}
 
 
 .event{}
-.event .col-date{float:left; width:50px; padding-right:10px; font-style:normal;}
+.event .col-date{float:left; width:55px; padding-right:5px; font-style:normal;}
 .event .col-date span{font-size:20px; color:#820e2d;}
 .event .col-data{ float:left; font-size:11px; border-left:1px solid #c5c5c5; padding-left:10px; width:200px; }
 .event .col-data span{font-size:13px; color:#003d52; padding-bottom:5px;}
