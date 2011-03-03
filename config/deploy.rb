@@ -1,4 +1,4 @@
-set :repository,  "git@github.com:insightmethods/sacredheartschool.net.git"
+set :repository,  "git@github.com:syweb/sacredheartschool.net.git"
 set :user,        "sites"
 set :domain,      "#{user}@insightmethods.com"
 set :deploy_to,   "/home/sites/sacredheartschool.net"
