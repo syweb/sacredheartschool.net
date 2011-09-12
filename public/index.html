@@ -26,6 +26,18 @@
 	</script>
 	<!-- accordion End -->
 	
+	<!-- Count down start -->
+	<link href="countdown/jquery.countdown.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="countdown/jquery.countdown.js" type="text/javascript"></script>
+	<script type="text/javascript">
+  $(function () {
+    var austDay = new Date(2011, 9, 31);
+    //alert(austDay);
+  	$('#defaultCountdown').countdown({until: austDay, timezone: +00});
+  });
+  </script>
+	<!-- Count down End -->
+	
 	<!-- Banner Start -->
 	<script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 	<script src="js/jquery-func.js" type="text/javascript"></script>
@@ -51,6 +63,7 @@
 </head>
 
 <body>
+  
 <!-- Start  wraper-->	
 <div class="wraper">
 	<!-- Start  header--> 
@@ -256,7 +269,10 @@
 					</dl>
 					
 				</div>
-				<div class="box1"  style="text-align:center;"><a href="http://shpsholidayhometour.com/"><img alt="" src="images/holidayhometour.png" /></a></div>			
+				<div class="box1"  style="text-align:center; position:relative;">
+				  <div id="defaultCountdown" style="display:none;"></div>
+				  <a href="http://shpsholidayhometour.com/"><img alt="" src="images/holidayhometour.png" /></a>
+				</div>			
 			</div>
 			<div class="sptr-1"></div>
 			<div class="col-299 news" >
@@ -268,24 +284,17 @@
               
               
 							<div class="news-data">
-							  <p><strong>Welcome Back!</strong></p>
-							  <p>We’ve missed you and we can’t wait to start another exciting year.  Here are a few news items for the start of the new school year:</p>
-                <p><strong>CLASSES BEGIN</strong></p>
-                <p>We will see you here on August 22nd at 8:00am, in uniform and ready to go.  (Gentlemen, that means neat hair cuts for you, and de-feathered hair for the girls.) Students in grades 1 – 8 will follow a minimum day schedule on August 22-24, with dismissal at noon.  Our regular full day schedule begins on Thursday, August 25.</p>
-                <p>Kinder families with students attending the morning session will arrive by 8:00am and will be dismissed at 11:15am during the first week of school.  Students attending the afternoon session should arrive by 11:45am.  They will be dismissed at 3:15pm.  The arrival of the afternoon kinders may overlap with the departure of the older students on the first three days of school.  Therefore, we strongly urge the kinder parents to park at the church and walk their children in to campus.</p>
-                <p><strong>TRAFFIC FLOW</strong></p>
-                <p>Traffic flow during the first few weeks of school is bound to be very congested around our campus.  In an on-going attempt to be good neighbors, we continue to encourage you to park at the church or at the curb on the west side of 39th Street and walk in to the campus.  We have been visited several times by the city traffic enforcement department regarding the backup of traffic on 39th Street.</p>
-                <p>If you drop your children off in the morning, please remember that the parking lot gates open at 7:30am.  Classrooms open at 7:45am.  You may not park in front of the dumpsters or in the striped loading zone area on the south side of the parking lot.  This area is reserved for Mercy McMahon Terrace only.   Parking is not allowed on the playground.</p>
-                <p>When classes are dismissed at noon, please DO NOT arrive to pick up your children before 12:00.  The gates will not open until noon.  Early arrival will result in a backup of traffic onto 39th Street.  This may cause a potentially dangerous situation for those vehicles stopped on the surface streets. </p>
-                <p>Dismissal on regular school days is at 3:00pm for grades 1 – 8.  Please DO NOT arrive on campus before that time.  The parking lot gates will not open until the children are ready for pickup at 3:00.  Early arrival will result in a backup of traffic on 39th street.   In a continued effort to improve the efficiency of our pick up operation, we will be reversing the order of the pickup line.  The younger grades will wait at the far end of 
-                the pickup lane by the bike racks.    Older siblings should wait with their younger brothers and sisters at the far end of the lot. Thank you for your cooperation.  As always, the safety and well being of the children is our first priority.
-                </p>
-                <p><strong>THE COFFEE IS ON</strong></p>
-                <p>Parents are welcome to join us for coffee and company in the cafeteria at 8:00am on the first morning of school.  Get reconnected with old friends or meet some new ones! </p>
                 <p><strong>Immunization Reminder</strong></p>
                 <p>A whooping cough (pertussis) booster shot is required for students entering 7th and 8th grades.  California law requires students to be immunized against pertussis.  An immunization booster shot must be given after the child’s tenth birthday.   Even though the State of California has granted a 30 day extension to get vaccinated, please ensure your child is up-to-date with his/her shots prior to the beginning of school on August 22nd.  Students not in compliance will NOT be allowed on campus after September 22.  Please bring proof of vaccination to the school office.</p>
+                <p><strong>Make Mine A Short Stack!</strong></p>
+                <p>Our pancake breakfast is back by popular demand.  Join us on Sunday, September 18th after 8:00am and 9:30am Mass for a delicious pancake breakfast, served in the school café.  The cost is $4 for kids and $6 for adults.  IHOP wishes their pancakes were this good.</p>
+                <p><strong>Fall Festival</strong></p>
+                <p>Planning is in full swing for the 70th annual Fall Festival on October 1st.  Food! Entertainment! General merriment!  Arrive on campus at 11:00am, leave at dusk.  You do not want to miss this event. </p>
+                <p>Now would be the time to bring your donations of wine, bottled water and cases of soda to the school office.  Entry forms for the lip sync and hula hoop contests are available in the office or from your class room representatives.  Please submit your contest forms as soon as possible. </p>
+                <p>Now is also the time to order your custom Fall Festival t-shirts.  Trendy and stylish, you will want to order a t-shirt for everyone in the family!  The t-shirts are available in youth and adult sizes.  Orders can be placed in the school office.  Sacred Heart School students will be allowed to wear the Fall Festival t-shirts with their uniform bottoms the Friday before the festival. </p>
+                <p>For the latest, most up-to-date information about Fall Festival please visit us on <a href="http://www.facebook.com/pages/Sacred-Heart-Fall-Festival/106355656136782" target="_blank">Facebook</a></p>
+                <p>Or e-mail the Festival committee:  <a href="mailto:shpsfallfestival@gmail.com">shpsfallfestival@gmail.com</a></p>
                 
-              
               </div>
 						</dd>
 						<!-- <dd class="btm"></dd>
@@ -316,42 +325,18 @@
 						<dd class="mid">
 							<dl class="event">
                	
-								<!-- event start -->
-                  <dd class="col-date">Aug<br/><span>22</span></dd>
+                <!-- event start -->
+                  <dd class="col-date">Sep<br/><span>18</span></dd>
                   <dd class="col-data">
-                    <span>First Day of School<br/> (Minimum Day)</span><br/><br/>
-                  </dd>
-                  <dd class="sptr-1"></dd><br/>
-                <!-- event ends -->
-								<!-- event start -->
-                  <dd class="col-date">Aug<br/><span>23-24</span></dd>
-                  <dd class="col-data">
-                    <span>Minimum Days</span><br/><br/>
-                  </dd>
-                  <dd class="sptr-1"></dd><br/>
-                <!-- event ends -->	
-
-								<!-- event start -->
-                  <dd class="col-date">Sep<br/><span>01</span></dd>
-                  <dd class="col-data">
-                    <span>Back to School Night – Parents Only</span><br/><br/>
+                    <span>Pancake Breakfast in school café after 8:00am and 9:30am Mass</span><br/><br/>
                   </dd>
                   <dd class="sptr-1"></dd><br/>
                 <!-- event ends -->
                 
 								<!-- event start -->
-                  <dd class="col-date">Sep<br/><span>05</span></dd>
-                  <dd class="col-data">
-                    <span>Labor Day Holiday – no school</span><br/><br/>
-                  </dd>
-                  <dd class="sptr-1"></dd><br/>
-                <!-- event ends -->
-
-								<!-- event start -->
                   <dd class="col-date">Sep<br/><span>25-29</span></dd>
                   <dd class="col-data">
                     <span>ITBS Testing – Please do not schedule any appts</span><br/><br/> 
-										
                   </dd>
                   <dd class="sptr-1"></dd><br/>
 								<!-- event start -->
@@ -363,12 +348,48 @@
                 <!-- event ends -->
 								
 								<!-- event start -->
+                  <dd class="col-date">Oct<br/><span>02</span></dd>
+                  <dd class="col-data">
+                    <span>Christian Brothers Open House 11am-2pm</span><br/><br/>
+                  </dd>
+                  <dd class="sptr-1"></dd><br/>
+                <!-- event ends -->
+								
+								<!-- event start -->
+                  <dd class="col-date">Oct<br/><span>09</span></dd>
+                  <dd class="col-data">
+                    <span>St. Francis Open House <br/> 1pm – 4pm</span><br/><br/>
+                  </dd>
+                  <dd class="sptr-1"></dd><br/>
+                <!-- event ends -->
+								
+								<!-- event start -->
                   <dd class="col-date">Oct<br/><span>14</span></dd>
                   <dd class="col-data">
                     <span>Diocesan Inservice – no school</span><br/><br/>
                   </dd>
                   <dd class="sptr-1"></dd><br/>
                 <!-- event ends -->
+                
+                <!-- event start -->
+                  <dd class="col-date">Oct<br/><span>16</span></dd>
+                  <dd class="col-data">
+                    <span>Jesuit Open House   12pm – 3pm</span><br/><br/>
+                  </dd>
+                  <dd class="sptr-1"></dd><br/>
+                <!-- event ends -->
+								
+								<!-- event start -->
+                  <dd class="col-date">Oct<br/><span>30</span></dd>
+                  <dd class="col-data">
+                    <span>Cristo Rey Open House   1pm – 3pm</span><br/><br/>
+                    <span>St. Patrick-St. Vincent (Vallejo) 1:30pm – 3:30pm</span><br/>
+                  </dd>
+                  <dd class="sptr-1"></dd><br/>
+                <!-- event ends -->
+								
+
+                
 
 								<!-- event start -->
                   <dd class="col-date">Nov<br/><span>11</span></dd>
