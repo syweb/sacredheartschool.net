@@ -1,5 +1,6 @@
-
-<HTML><HEAD><TITLE>2011 Holiday Home Tour</TITLE>
+<HTML>
+  <HEAD>
+    <TITLE>2011 Holiday Home Tour</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=windows-1252">
 <META content=no-cache>
 <META 
@@ -9,8 +10,26 @@ name=keywords>
 content="" 
 name=description><LINK href="files/hhtCSS.css" type=text/css 
 rel=stylesheet>
-<META content="" name=GENERATOR></HEAD>
+<META content="" name=GENERATOR>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+  <script src="//commoncode.insightmethods.info/sites/4e2fd419b4dd800216000215/theme/javascripts/fadeinslider/jquery.cycle.all.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    //fadeinslider
+    $('.slide').cycle({
+    fx:     'fade',
+    timeout: 5000,
+    next:   '#next',
+    prev:   '#prev'
+    });
+    
+    });
+  </script>
+  
+  </HEAD>
 <BODY bgColor=#E3DCC9 leftMargin=0 topMargin=0>
+
+  
 <TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" borderColor=#111111 
 cellSpacing=0 cellPadding=0 width=800 align=center border=0>
   <TBODY>
@@ -21,7 +40,14 @@ cellSpacing=0 cellPadding=0 width=800 align=center border=0>
         <TBODY>
         <TR>
               <TD height="254">
-<div align="center">
+<div align="center" style="position:relative;">
+  <div class="slide" style="position:absolute; width:230px; height:180px; left:10px; top:6px;">
+    <img src="homes11/images/40th-streets.jpg" alt="40th Streets" width="230" height="180" />
+    <img src="homes11/images/42nd-streets.jpg" alt="42nd Streets" width="230" height="180" />
+    <img src="homes11/images/44th-streets.jpg" alt="44th Streets" width="230" height="180" />
+    <img src="homes11/images/45th-streets.jpg" alt="45th Streets" width="230" height="180" />
+    <img src="homes11/images/46th-streets.jpg" alt="46th Streets" width="230" height="180" />
+  </div>
                   <MAP name=FPMap0>
                     <AREA shape=RECT target=iframe1 alt=Home 
               coords=100,291,172,313 href="tickets.htm">

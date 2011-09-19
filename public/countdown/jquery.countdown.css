@@ -1,9 +1,9 @@
 /* jQuery Countdown styles 1.5.9. */
 .hasCountdown {
 	position:absolute;
-	width:60%;
-	top:45px;
-	left:60px; 
+	width:99%;
+	top:30px;
+	left:0px; 
 	background:#f1f1f1;
 	border:1px solid #e1e1e1;
 	padding-bottom:2px;
@@ -45,7 +45,7 @@
 .countdown_section {
 	display: block;
 	float: left;
-	font-size: 60%;
+	font-size: 80%;
 	text-align: center;
 	color:#820E2D;
 }
