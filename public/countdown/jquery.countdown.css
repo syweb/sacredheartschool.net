@@ -2,10 +2,10 @@
 .hasCountdown {
 	position:absolute;
 	width:99%;
-	top:30px;
+	top:46px;
 	left:0px; 
-	background:#f1f1f1;
-	border:1px solid #e1e1e1;
+/*	background:#f1f1f1;
+	border:1px solid #e1e1e1;*/
 	padding-bottom:2px;
 }
 .countdown_rtl {
