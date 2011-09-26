@@ -1,13 +1,9 @@
 require 'rubygems'
-require 'rake/rdoctask'
+require 'vlad'
 
-##############################################################################
-# ADD YOUR CUSTOM TASKS IN /lib/tasks
-# NAME YOUR RAKE FILES file_name.rake
-##############################################################################
-begin
-  require 'vlad'
-  Vlad.load(:scm => :git, :app => nil)
-rescue LoadError
-  puts "Vlad is required to run deploy tasks"
-end
+# begin
+  require "vlad"
+  Vlad.load(:app => nil, :scm => "git", :web => nil)
+# rescue LoadError
+#   
+# end
