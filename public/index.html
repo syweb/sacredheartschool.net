@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -8,7 +9,7 @@
 	<title>Welcome to Sacred Heart Parish School</title>
 	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
 	<!-- accordion Start -->
-	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
 	<script type="text/javascript">
 		$(function(){
@@ -47,6 +48,37 @@
 	<link rel="stylesheet" type="text/css" href="css/pro_dropdown_2.css" />
 	<script src="js/stuHover.js" type="text/javascript"></script>
 	<!-- Menu End -->
+	
+	<!-- FromeSy Start -->
+      <script src="http://commoncode.insightmethods.info/sites/4e2fd419b4dd800216000215/theme/javascripts/fromsy/handlebars.1.0.0.beta.3.js" type="text/javascript"></script>
+      
+      <script type="text/javascript" charset="utf-8">
+        //var SYURL = "https://ghanshyam.schoolyardapp.com"
+        var SYURL = "https://sacredheart-sac.schoolyardapp.com"
+      </script>
+      <script src="http://commoncode.schoolyardapp.com/javascripts/sycontent.js" type="text/javascript"></script>
+      <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+        sycontent('http://commoncode.insightmethods.info/sites/4e2fd419b4dd800216000215/theme/javascripts/fromsy/commontpl.js',
+        [
+        {
+        content: 'group_forms',
+        template: "group_forms_tpl", 
+        selector: "#formfile",
+        params: {
+        id: '2123',
+        sort_by_field: "updated_at", 
+        order_by_value: "desc",
+        limit:1
+        }
+        }
+        ]
+        )
+        })
+      </script>
+      <!-- FromeSy End -->
+	
+	
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -75,6 +107,7 @@
   
 <!-- Start  wraper-->	
 <div class="wraper">
+<div class="sptr20"></div>
 	<!-- Start  header--> 
 	<div class="header">
 		<div class="bg-logo">
@@ -267,10 +300,18 @@
 				<div class="box1">
 					<dl>
 						<dd class="top">Pulse</dd>
-						<dd class="mid">
+						<dd class="mid pulse">
 							<dl>
-								<dd class="col-115"><a href="images/Pulse.pdf"><img alt="" src="images/icon-pdf.gif" /></a></dd>
-								<dd class="col-160"><p>The Pulse published <br/>twice a month by Sacred<br/> Heart Parish School.<br/> <a href="images/Pulse.pdf">Download Issue</a></p></dd>
+								<dd class="col-115"><img alt="" src="images/icon-pdf.gif" /></dd>
+								<dd class="col-160"><p>The Pulse published <br/>twice a month by Sacred<br/> Heart Parish School.<br/> 
+								  <!-- <a href="images/Pulse.pdf">Download Issue</a>-->
+								  
+								  </p>
+								  <div id="formfile">
+                    <p>Loading...</p>
+                  </div>
+								  
+								</dd>
 								<dd class="sptr-1"></dd>
 							</dl>
 						</dd>

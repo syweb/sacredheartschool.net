@@ -204,4 +204,9 @@ a:active{color:#007ca7; text-decoration:underline;}
 
 /*-- Slider Style End --*/
 
+.pulse .sy-title, .pulse .sy-detail{
+	display:none;
+	
+}
+
 
