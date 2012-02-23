@@ -61,17 +61,38 @@
         $(document).ready(function(){
         sycontent('commontpl.js',
         [
-        {
-        content: 'group_forms',
-        template: "group_forms_tpl", 
-        selector: "#formfile",
-        params: {
-        id: '2123',
-        sort_by_field: "updated_at", 
-        order_by_value: "desc",
-        limit:1
-        }
-        }
+          {
+            content: 'group_announcements',
+            template: "group_announcements_tpl", 
+            selector: "#announcements",
+            params: {
+              id: '2123',
+              sort_by_field: "updated_at", 
+              order_by_value: "desc",
+              limit:4
+            }
+          },
+          {
+            content: 'group_events',
+            template: "group_events_tpl", 
+            selector: "#upcoming_event",
+            params: {
+              id: '2123',
+              sort_by_field: "start_date", 
+              order_by_value: "asc"
+            }
+          },
+          {
+            content: 'group_forms',
+            template: "group_forms_tpl", 
+            selector: "#formfile",
+            params: {
+              id: '2123',
+              sort_by_field: "updated_at", 
+              order_by_value: "desc",
+              limit:1
+            }
+          }
         ]
         )
         })
@@ -114,10 +135,8 @@
 			<div class="container">
 				<div class="logo"><img src="images/logo-sacred.gif" alt=""  /></div>
 				<div class="jesus"><span>|</span> "Jesus, meek and humble of heart, make our hearts like yours."</div>
-				
 			</div>
 		</div>
-		
 		<div class="container">
 			<ul id="nav" class="menu first-lvl ">
 				<li  class="li1  top active"><a href="index.html" title="Home" ><span>Home</span></a></li>
@@ -290,7 +309,6 @@
 	<!-- Start  content-->
 	<div class="content">
 		<div class="container">
-			
 			<div class="col-625">
 				<p class="ptext1">Sacred Heart Parish School serves the Sacred Heart Parish Community by providing a quality Catholic elementary education (K-8) that is based on the  Gospel values of Jesus, and is dedicated to the development of the spiritual, intellectual, social-emotional and physical life of our students.</p>
 				<h3>Welcome Note</h3>
@@ -338,7 +356,7 @@
               <!-- <div class="news-title "></div> -->
               
               
-							<div class="news-data">
+							<div class="news-data" id="announcements">
 							  <p><strong style="text-transform:uppercase;">Happy New Year!</strong></p>
 							  <p>We are off and running again after our holiday break.  January marks the middle point of our school year.  The second half of the school year is as packed with exciting events as the first half.</p>
                 <p>Our basketball season is underway.  Over 200 Sacred Heart students participate in the basketball program.  If you’ve never seen a Little Dribblers game, you are missing out! Come cheer on all of our Sacred Heart basketball teams.</p>
@@ -380,7 +398,7 @@
 					<dl>
 						<dd class="top">Events 2011-2012</dd>
 						<dd class="mid">
-							<dl class="event">
+							<dl class="event" id="upcoming_event">
                 <!-- event start -->
                   <dd class="col-date">Feb<br/><span>11</span></dd>
                   <dd class="col-data">
