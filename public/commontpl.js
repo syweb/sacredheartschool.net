@@ -41,10 +41,10 @@ Handlebars.registerHelper('ifEql', function(v1, v2, options) {
 	  {{else}}
 	 		<dd class="col-date">
 				{{#if calendar.start_date}} 
-					<dd class="col-date">{{sy_date calendar.start_date "month"}}<br/><span>{{sy_date calendar.start_date "day"}}</span></dd>
+					{{sy_date calendar.start_date "month"}}<br/><span>{{sy_date calendar.start_date "day"}}</span>
 				{{/if}}            
 				{{#if calendar.end_date}}  
-					<dd class="col-date"><br/>to<br/>{{sy_date calendar.end_date "month"}}<br/><span>{{sy_date calendar.end_date "day"}}</span></dd>
+					<br/>to<br/>{{sy_date calendar.end_date "month"}}<br/><span>{{sy_date calendar.end_date "day"}}</span>
 				{{/if}}
 			</dd>	                       
 	  {{/ifEql}}
@@ -62,7 +62,7 @@ Handlebars.registerHelper('ifEql', function(v1, v2, options) {
 				<span class="sy-heading">Location :</span> {{calendar.location}}<br/>
 			{{/if}}
 		</dd>
-		<dd class="sptr-1"></dd>	
+		<dd class="sptr-5"></dd>	
 	{{/each}}
 {{else}}
 	<dd class="col-data">Not Available</dd>

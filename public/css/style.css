@@ -44,6 +44,7 @@ a:active{color:#007ca7; text-decoration:underline;}
 /*-- column --*/
 
 .sptr-1{clear:both; font-size:1px; line-height:1px; height:1px;}
+.sptr-5{clear:both; font-size:1px; line-height:1px; height:5px;}
 .sptr-20{clear:both; font-size:1px; line-height:1px; height:20px;}
 
 .column{}
