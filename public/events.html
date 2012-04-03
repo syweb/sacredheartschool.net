@@ -157,7 +157,7 @@
 		<div class="container">
 			
 			<div class="col-720">
-				<p class="ptext1">Click below images to download Flyer and Tickets Form or Buy Tickets online via Paypal. </p> 
+				<p class="ptext1">Click below images to download Flyer and Tickets Form or pay online via Paypal. </p> 
 				<div class="sptr-1"></div>
 				<div class="col-299">
   				<h3>Women’s Tennis Tournament</h3>
@@ -169,12 +169,15 @@
   				<p><a href="images/S_H_Golf_Tournament_2012_flyer.pdf" target="_blank" ><img alt="" src="images/S_H_Golf_Tournament.jpg" style="cursor:pointer;" /></a></p>
 				</div>
 				<div class="sptr-20"></div>
-				<h3>Buy Tickets Online</h3>
+				<h3>Pay Online</h3>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="DNFD8LR865TP6">
         <table>
-        <tr><td><input type="hidden" name="on0" value="Fees">Fees</td></tr><tr><td><select name="os0">
+        <tr><td><input type="hidden" name="on0" value="Fees">Fees</td>
+          </tr>
+          
+          <tr><td><select name="os0">
         	<option value="Single Golfer">Single Golfer $155.00 USD</option>
         	<option value="2 Golfers">2 Golfers $310.00 USD</option>
         	<option value="3 Golfers">3 Golfers $465.00 USD</option>
@@ -184,10 +187,23 @@
         	<option value="Tennis">Tennis $100.00 USD</option>
         	<option value="Dinner Only">Dinner Only $25.00 USD</option>
         </select> </td></tr>
-        <tr><td><input type="hidden" name="on1" value="Golfers or Tennis Name">Golfers or Tennis Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-        <tr><td><input type="hidden" name="on2" value="Name for Hole Sponsorship">Name for Hole Sponsorship</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+        <tr>
+            <td height="20"></td>
+        </tr>  
+        
+        <tr><td><input type="hidden" name="on1" value="Golfers or Tennis Name">Golfers or Tennis Name</td></tr><tr><td><input type="text" name="os1" maxlength="200" style="padding:3px; width:300px;"></td></tr>
+        <tr>
+            <td height="20"></td>
+        </tr>  
+        
+        <tr><td><input type="hidden" name="on2" value="Name for Hole Sponsorship">Name for Hole Sponsorship</td></tr><tr><td><input type="text" name="os2" maxlength="200" style="padding:3px; width:300px;"></td></tr>
+        <tr>
+            <td height="20"></td>
+        </tr>  
+        
         </table>
         <input type="hidden" name="currency_code" value="USD">
+        
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
