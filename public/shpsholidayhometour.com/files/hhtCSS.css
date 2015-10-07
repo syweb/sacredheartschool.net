@@ -57,7 +57,7 @@ A:hover {
 	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana,arial,tahoma
 }
 .leftnavtext {
-	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+	FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; padding-left:10px;
 }
 .leftnavtext A:link {
 	COLOR: #000000; TEXT-DECORATION: none
