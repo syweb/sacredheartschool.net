@@ -1,0 +1,5 @@
+.btn a {border: 2px solid #820203; padding: 10px; background-color: #820203; border-radius: 4px; color: #fff; font-size: 14px; 
+	text-decoration: none; line-height: 1.2em; display: inline-block; 
+	-webkit-transition: all .2s ease-out; transition: all .2s ease-out;}
+
+.btn a:hover { background-color: transparent; border: 2px solid #820203; color: #820203; }
